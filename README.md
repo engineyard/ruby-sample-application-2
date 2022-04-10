@@ -1,3 +1,5 @@
+## The text below refers to deploying the application to EYK.  We need a new Readme to show how it's deployed on EYC Stack v7.
+
 # KontainerYard example-application-2: background_jobs
 
 A minimalist Rails application created to test background workers on KY.
