@@ -7,4 +7,6 @@ Rails.application.routes.draw do
 
   get "enqueue-jobs/:jobs", to: "application#enqueue_jobs"
   get "enqueue-cpucrasherjobs/:jobs", to: "application#enqueue_cpucrasherjobs"
+  get "enqueue-cpucrasherjobs2/:jobs", to: "application#enqueue_cpucrasherjobs2"
+  get "chart/:size", to: "application#chart"  
 end
