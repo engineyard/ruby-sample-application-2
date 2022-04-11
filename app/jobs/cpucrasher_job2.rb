@@ -2,7 +2,7 @@
 FOO = []
 class CpucrasherJob < ApplicationJob
     # To be processed by x86-based instances
-    queue_as :defaul2
+    queue_as :default2
     
     def perform(*args)
         search_until = 800000
